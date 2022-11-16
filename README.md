@@ -1,6 +1,7 @@
 # Usage
 import Logger from "@vernglobe/logger";
 
+```ts
 Logger.info("logging the information");
 Logger.debug("logging the debug");
 Logger.error("logging the error");
@@ -17,3 +18,4 @@ Logger.info({ msg });
 Logger.debug({ msg });
 Logger.error({ msg });
 Logger.warn({ msg });
+```
