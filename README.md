@@ -1,7 +1,8 @@
 # Usage
-import Logger from "@vernglobe/logger";
 
 ```ts
+import Logger from "@vernglobe/logger";
+
 Logger.info("logging the information");
 Logger.debug("logging the debug");
 Logger.error("logging the error");
