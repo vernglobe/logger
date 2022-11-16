@@ -3,6 +3,7 @@
 ```ts
 import Logger from "@vernglobe/logger";
 
+
 const logger = new Logger("packageOrProjectName");
 logger.info("logging the information");
 logger.debug("logging the debug");
