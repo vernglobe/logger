@@ -1,6 +1,8 @@
 export default class Logger {
-    static debug(msg: any): void;
-    static info(msg: any): void;
-    static warn(msg: any): void;
-    static error(msg: any): void;
+    name: string;
+    constructor(name: string);
+    debug(debug: any): void;
+    info(info: any): void;
+    warn(warn: any): void;
+    error(error: any): void;
 }

@@ -1,6 +1,6 @@
 {
   "name": "@vernglobe/logger",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "log(debug, info, warn, error) into cloudwatch",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
